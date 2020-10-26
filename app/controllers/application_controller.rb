@@ -53,7 +53,6 @@ class ApplicationController < Sinatra::Base
     @articles = Article.all
     erb :index
   end 
-  #good here
   
   get 'articles/new' do 
     erb :new 
